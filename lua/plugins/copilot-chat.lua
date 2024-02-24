@@ -21,7 +21,7 @@ return {
         desc = "CopilotChat - Toggle Vsplit", -- Toggle vertical split
       },
       {
-        "<leader>ccv",
+        "<leader>we",
         ":CopilotChatVisual",
         mode = "x",
         desc = "CopilotChat - Open in vertical split",

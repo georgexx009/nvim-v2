@@ -15,4 +15,4 @@ opt.expandtab = true
 opt.incsearch = true
 
 -- Keep cursor within 8 lines when scrolling
-opt.scrolloff = 6
+opt.scrolloff = 8
