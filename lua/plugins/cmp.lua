@@ -30,9 +30,9 @@ return {
         { name = "buffer" },
       },
       mapping = {
-        ['<C-Space>'] = cmp.mapping.complete(),
-        ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
-        ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
+        -- ['<C-Space>'] = cmp.mapping.complete(),
+        ['<TAB>'] = cmp.mapping.select_next_item(cmp_select),
+        ['<S-TAB>'] = cmp.mapping.select_prev_item(cmp_select),
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
       }
     })

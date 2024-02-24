@@ -14,14 +14,13 @@ keymap.set("n", "<leader>c", "\"+y$")
 keymap.set("n", "<leader>sv", "<C-w>v") -- split vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- equal width
-keymap.set("n", "<leader>sx", ":close<CR>") -- close current split
 keymap.set("n", "<leader>h", "<C-w>h") -- go to split on the left
 keymap.set("n", "<leader>l", "<C-w>l") -- go to split on the right
 keymap.set("n", "<leader>j", "<C-w>j") -- go to split down
 keymap.set("n", "<leader>k", "<C-w>k") -- go to split up
 
 -- nvim-tree
-keymap.set("n", "<leader>1", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 -- Yank to system clipboard keymap
 keymap.set("n", "<leader>y", "\"+y")
