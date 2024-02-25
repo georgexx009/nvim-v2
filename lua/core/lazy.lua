@@ -12,7 +12,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- plugins is the lua module with the plugins specs
-require('lazy').setup('plugins', {
-  defaults = { lazy = true },
-  install = { colorscheme = { "onedark" }}
-})
+-- require('lazy').setup('plugins', {
+--   defaults = { lazy = true },
+--   install = { colorscheme = { "onedark" }}
+-- })
+require('lazy').setup('plugins')
