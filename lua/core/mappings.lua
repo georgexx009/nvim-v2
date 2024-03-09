@@ -6,8 +6,9 @@ local keymap = vim.keymap -- for conciseness
 -- main keymaps
 keymap.set("n", "<leader>x", ":q<CR>")
 keymap.set("i", "jk", "<ESC>:w<CR>")
-keymap.set("i", "jj", "()")
-keymap.set("i", "kk", "{}")
+keymap.set("i", "jj", "()<Left>")
+keymap.set("i", "kk", "{}<Left><CR><CR><Up><TAB>")
+keymap.set("i", "hh", "<Right>")
 keymap.set("n", "<leader>c", "\"+y$")
 
 -- split windows
